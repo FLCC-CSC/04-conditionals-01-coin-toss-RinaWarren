@@ -53,7 +53,7 @@ Tails
 
 1. What was the hardest part of completing this lab? 
 I think it was the = signs in the coin flipper if im honest. Because how the auto grader works, one = or space off and failure!
-
+Thinking now, i could have copy/pasted from the sample output.
 
 
 
