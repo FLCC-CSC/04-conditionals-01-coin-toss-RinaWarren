@@ -15,7 +15,7 @@ print('===== Coin Flipper =====')
 coin_toss = random.randint(1, 100)
 
 #print(coin_toss)
-if(coin_toss>50):
+if(coin_toss>=51):
     print('Tails')
 else:
     print('Heads')
