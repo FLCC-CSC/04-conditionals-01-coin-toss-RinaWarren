@@ -11,7 +11,7 @@
 
 import random
 
-print('===== Coin Flipper ======')
+print('===== Coin Flipper =====')
 coin_toss = random.randint(1, 100)
 
 #print(coin_toss)
