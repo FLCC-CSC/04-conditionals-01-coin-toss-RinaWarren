@@ -1,7 +1,7 @@
 # FILE NAME - coin_toss.py
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Rina Warren
+# DATE: September 30, 2025
+# BRIEF DESCRIPTION: Heads >51
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
 # 3. Be sure to answer the Reflection Questions and Attestation below
@@ -9,7 +9,16 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
+import random
 
+print('===== Coin Flipper ======')
+coin_toss = random.randint(1, 100)
+
+#print(coin_toss)
+if(coin_toss>50):
+    print('Tails')
+else:
+    print('Heads')
 
 
 
@@ -43,7 +52,7 @@ Tails
 '''
 
 1. What was the hardest part of completing this lab? 
-
+I think it was the = signs in the coin flipper if im honest. Because how the auto grader works, one = or space off and failure!
 
 
 
@@ -63,5 +72,5 @@ may impede your understanding. Please rate how well you understand the concepts 
 [ ] I understand very little about this lab.
 [ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
 [ ] I pretty much get it.
-[ ] I'm solid. Totally got it.
+[ x] I'm solid. Totally got it.
 '''
